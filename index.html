@@ -14,6 +14,9 @@
         background-color: white;
         margin: 0 50px 0 0;
       }
+      a img {
+        border: 0;
+      }
       .main {
         width: 100%;
         height: 100%;
@@ -43,6 +46,9 @@
       }
       .align-bottom {
         vertical-align: bottom;
+      }
+      .pull-left {
+        float: left;
       }
     </style>
 </head>
@@ -86,7 +92,7 @@
     <td class="align-top">
       <div class="header">
         <a href="60.html">
-        <img border="0" src="images/puffy60.gif" height="199" width="599" alt="[OpenBSD 6.0]">
+        <img src="images/puffy60.gif" height="199" width="599" alt="[OpenBSD 6.0]">
         </a>
         <br>
         <span class="callout">
@@ -119,8 +125,8 @@
   <tr>
     <td class="sidebar align-bottom">
       <a href="images/rack2009.jpg">
-      <img width="60" height="90" src="images/rack2009-s.png"
-       style="float:left;"></a>
+        <img width="60" height="90" src="images/rack2009-s.png" class="pull-left">
+      </a>
    </td>
     <td class="align-bottom">
       <hr>
