@@ -31,6 +31,19 @@
         width: 175px;
         border-right: 11px solid #007b9c;
       }
+      .nav {
+        font-weight: bold;
+        font-size: large;
+        list-style: none;
+        padding: 0;
+      }
+      .sub-nav {
+        font-weight: normal;
+        font-size: medium;
+        list-style: none;
+        padding: 0 0 0 0.5em;
+        margin: 0 0 1em;
+      }
       .header {
         text-align: center;
       }
@@ -56,38 +69,61 @@
 <table class="main">
   <tr>
     <td class="sidebar align-top">
-      <big><b>About OpenBSD</b></big><br>
-      &nbsp;<a href="goals.html">Project&nbsp;Goals</a><br>
-      &nbsp;<a href="plat.html">Hardware Platforms</a><br>
-      &nbsp;<a href="security.html">Security</a>
-      &nbsp;<a href="crypto.html">Crypto</a><br>
-      &nbsp;<a href="events.html">Events and Papers</a>
-      &nbsp;<a href="innovations.html">Innovations</a><br>
-      <p>
-      <big><b>Getting&nbsp;OpenBSD</b></big><br>
-      &nbsp;<a href="ftp.html">Download</a><br>
-      <p>
-      <big><b>Getting&nbsp;Source</b></big><br>
-      &nbsp;<a href="anoncvs.html">AnonCVS</a><br>
-      &nbsp;<a href="cvsync.html">CVSync</a><br>
-      &nbsp;<a href="http://cvsweb.openbsd.org/">CVS on Web</a><br>
-      &nbsp;<a href="https://github.com/openbsd">GitHub Mirror</a><br>
-      <p>
-      <big><b>OpenBSD&nbsp;Resources</b></big><br>
-      &nbsp;<a href="plus.html">Daily Changelog</a><br>
-      &nbsp;<a href="faq/index.html">FAQ</a><br>
-      &nbsp;<a href="http://man.openbsd.org">Manual Pages</a><br>
-      &nbsp;<a href="errata60.html">Patches</a><br>
-      &nbsp;<a href="report.html">Reporting Problems</a><br>
-      &nbsp;<a href="mail.html">Mailing Lists</a><br>
-      &nbsp;<a href="lyrics.html">Songs &amp; Artwork</a><br>
-      &nbsp;<a href="hackathons.html">Hackathons</a><br>
-      &nbsp;<a href="support.html">Commercial Support</a><br>
-      <p>
-      <big><b>Supporting&nbsp;OpenBSD</b></big><br>
-      &nbsp;<a href="https://openbsdstore.com">Buy OpenBSD Products</a><br>
-      &nbsp;<a href="donations.html">Donations</a><br>
-      &nbsp;<a href="http://www.openbsdfoundation.org/"><i>OpenBSD Foundation</i></a>
+      <ul class="nav">
+        <li>
+          About&nbsp;OpenBSD
+
+          <ul class="sub-nav">
+            <li><a href="goals.html">Project&nbsp;Goals</a></li>
+            <li><a href="plat.html">Hardware Platforms</a></li>
+            <li><a href="security.html">Security</a></li>
+            <li><a href="crypto.html">Crypto</a></li>
+            <li><a href="events.html">Events and Papers</a></li>
+            <li><a href="innovations.html">Innovations</a></li>
+          </ul>
+        </li>
+        <li>
+          Getting&nbsp;OpenBSD
+
+          <ul class="sub-nav">
+            <li><a href="ftp.html">Download</a></li>
+          </ul>
+        </li>
+        <li>
+          Getting&nbsp;Source
+
+          <ul class="sub-nav">
+            <li><a href="anoncvs.html">AnonCVS</a></li>
+            <li><a href="cvsync.html">CVSync</a></li>
+            <li><a href="http://cvsweb.openbsd.org/">CVS on Web</a></li>
+            <li><a href="https://github.com/openbsd">GitHub Mirror</a></li>
+          </ul>
+        </li>
+        <li>
+          OpenBSD&nbsp;Resources
+
+          <ul class="sub-nav">
+            <li><a href="plus.html">Daily Changelog</a></li>
+            <li><a href="faq/index.html">FAQ</a></li>
+            <li><a href="http://man.openbsd.org">Manual Pages</a></li>
+            <li><a href="errata60.html">Patches</a></li>
+            <li><a href="report.html">Reporting Problems</a></li>
+            <li><a href="mail.html">Mailing Lists</a></li>
+            <li><a href="lyrics.html">Songs &amp; Artwork</a></li>
+            <li><a href="hackathons.html">Hackathons</a></li>
+            <li><a href="support.html">Commercial Support</a></li>
+          </ul>
+        </li>
+        <li>
+          Supporting&nbsp;OpenBSD
+
+          <ul class="sub-nav">
+            <li><a href="https://openbsdstore.com">Buy OpenBSD Products</a></li>
+            <li><a href="donations.html">Donations</a></li>
+            <li><a href="http://www.openbsdfoundation.org/"><i>OpenBSD Foundation</i></a></li>
+          </ul>
+        </li>
+      </ul>
     </td>
     <td class="align-top">
       <div class="header">
